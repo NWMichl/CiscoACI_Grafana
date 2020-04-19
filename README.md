@@ -5,7 +5,7 @@ Visit my blog post over at https://nwmichl.net for full documentation.
 
 ## Shell scripts
 apic_query.sh and apic_querysig.sh may live in the /etc/telegraf directory and provide a wrapper around the API Call.
-Telegraf inputs.http doesn't support cookie handling, so I choose to break out to bash and use inputs.exec to parse the json response. Same for the cert / signature based authentcation script, because nobody really wants to manual generate the signature and build the Header cookie by hand. 
+Telegraf inputs.http doesn't support cookie handling, so I choose to break out to bash and use inputs.exec to parse the json response. Same for the cert / signature based authentication script, because nobody really wants to manual generate the signature and build the http header cookie by hand. 
 
 ## Telegraf configuration
 .conf files live in the /etc/telegraf/telegraf.d directory and query all metrics to populate the Grafana dashboard of this demo
