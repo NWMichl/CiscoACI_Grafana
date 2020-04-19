@@ -11,4 +11,4 @@ apic_query.sh and apic_querysig.sh may live in the /etc/telegraf directory and p
 ## Grafana 
 The Dashboard is a first idea to visualize central Cisco ACI metrics, and should help to get started and develop own solutions.
 
-![Cisco ACI Dashboard](link-to-image)
+![Cisco ACI Dashboard](https://github.com/NWMichl/CiscoACI_Grafana/blob/master/ciscoaci_dashboard.png)
