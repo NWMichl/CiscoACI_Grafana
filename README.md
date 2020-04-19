@@ -1,6 +1,8 @@
 # CiscoACI_Grafana
 Demo about how to monitor Cisco ACI via REST-API with the TIG-Stack (Telegraf, InfluxDB, Grafana).
 
+![Cisco ACI TIG-Stack](https://github.com/NWMichl/CiscoACI_Grafana/blob/master/ACI_TIG-Stack.jpg)
+
 Visit my blog post over at https://nwmichl.net for full documentation.
 
 ## Shell scripts
