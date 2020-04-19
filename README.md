@@ -3,7 +3,7 @@ Demo about how to monitor Cisco ACI via REST-API with the TIG-Stack (Telegraf, I
 
 ![Cisco ACI TIG-Stack](https://github.com/NWMichl/CiscoACI_Grafana/blob/master/ACI_TIG-Stack.jpg)
 
-Visit my blog post over at https://nwmichl.net for full documentation.
+Visit my blog post over at http://nwmichl.net/2020/04/19/monitor-cisco-aci-via-rest-api/ for full documentation.
 
 ## Shell scripts
 apic_query.sh and apic_querysig.sh may live in the /etc/telegraf directory and provide a wrapper around the API Call.
