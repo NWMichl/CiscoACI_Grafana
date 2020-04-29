@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Invocation: sh apic_query.sh <APIC-FQDN or IP> <API-Operation> <username> <password>
+# Invoke: sh apic_query.sh <APIC-FQDN or IP> <API-Operation> <username> <password>
 # Example: sh apic_query.sh sandboxapicdc.cisco.com /api/class/fabricHealthTotal.json telegraf telegraf
 #
 
