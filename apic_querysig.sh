@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Invocation: sh apic_querysig <APIC-FQDN or IP> <API-Operation> <username> <private.key filename>
+# Invoke: sh apic_querysig <APIC-FQDN or IP> <API-Operation> <username> <private.key filename>
 # Example: sh apic_querysig.sh sandboxapicdc.cisco.com /api/class/fabricHealthTotal.json telegraf telegraf.key
 #
 
