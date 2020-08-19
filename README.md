@@ -19,7 +19,7 @@ First of all, you need a working TIG-Stack. The installation is pretty simple an
 
 ### Shell scripts
 apic_query.sh and apic_querysig.sh may live in the /etc/telegraf directory and provide a wrapper around the API Call.
-The Telegraf inputs.http doesn't support cookie handling, so I decided to break out to bash and use inputs.exec to parse the json response. Same for the cert / signature based authentication script, because nobody really wants to manual generate the signature and build the http header cookie by hand. Keep in mind that all user/password based API Calls are rate limited by the NGINX process at the APIC. So, depending on the scope and frequency you are better off with cert based access.
+The Telegraf inputs.http doesn't support cookie handling, so I decided to break out to bash and use inputs.exec to parse the json response. Same for the cert / signature based authentication script, because nobody really wants to generate the signature and build the http header cookie by hand. Keep in mind that all user/password based API Calls are rate limited by the NGINX process at the APIC. So, depending on the scope and frequency you are better off with cert based access.
 
 ## Configuration
 ### Cisco ACI
